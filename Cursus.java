@@ -20,14 +20,7 @@ public class Cursus {
         }
     }
 
-    public void voireClasse(){
-        int i = 0;
-
-        while(i != liste.length){
-            System.out.println("il y 'a : "+liste[i]);
-            i++;
-        }
-    }
+     
     public void afficheLesEtudiants() {
         for(Etudiant e : liste){
             e.afficheUnEtudiant();
